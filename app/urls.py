@@ -22,6 +22,6 @@ urlpatterns = [
     path('operaciones/',views.operaciones),
     path('transCP/',views.trcuentapropia),
     path('transCT/',views.trcuentaterceros),
-    path('preautorizacion/',views.preautorizacion)
-
+    path('preautorizacion/',views.preautorizacion),
+    path('pagoplanillayproveedor/',views.pagoplanilla)
 ]

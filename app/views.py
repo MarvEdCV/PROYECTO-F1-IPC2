@@ -12,3 +12,5 @@ def trcuentaterceros(request):
     return render(request,'trcuentasterceros.html')
 def preautorizacion(request):
     return render(request,'preautorizacion.html')
+def pagoplanilla(request):
+    return render(request,'pagoplanilla.html')
