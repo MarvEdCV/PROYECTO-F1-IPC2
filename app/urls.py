@@ -23,5 +23,6 @@ urlpatterns = [
     path('transCP/',views.trcuentapropia),
     path('transCT/',views.trcuentaterceros),
     path('preautorizacion/',views.preautorizacion),
-    path('pagoplanillayproveedor/',views.pagoplanilla)
+    path('pagoplanillayproveedor/',views.pagoplanilla),
+    path('pagoservicios/', views.servicios)
 ]

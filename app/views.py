@@ -14,3 +14,5 @@ def preautorizacion(request):
     return render(request,'preautorizacion.html')
 def pagoplanilla(request):
     return render(request,'pagoplanilla.html')
+def servicios(request):
+    return render(request,'sevicios.html')
