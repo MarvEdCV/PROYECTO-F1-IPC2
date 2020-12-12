@@ -18,3 +18,5 @@ def servicios(request):
     return render(request,'sevicios.html')
 def solicitarprestamo(request):
     return render(request,'solicitarprestamo.html')
+def agregarterceros(request):
+    return render(request,'agregarterceros.html')

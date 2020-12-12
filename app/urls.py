@@ -26,4 +26,5 @@ urlpatterns = [
     path('pagoplanillayproveedor/',views.pagoplanilla),
     path('pagoservicios/', views.servicios),
     path('solicitarprestamo/', views.solicitarprestamo),
+    path('agregarterceros/', views.agregarterceros),
 ]
