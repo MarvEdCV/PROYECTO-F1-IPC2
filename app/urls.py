@@ -21,5 +21,7 @@ urlpatterns = [
     path('', views.login),
     path('operaciones/',views.operaciones),
     path('transCP/',views.trcuentapropia),
-    path('transCT/',views.trcuentaterceros)
+    path('transCT/',views.trcuentaterceros),
+    path('preautorizacion/',views.preautorizacion)
+
 ]

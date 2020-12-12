@@ -10,3 +10,5 @@ def trcuentapropia(request):
 
 def trcuentaterceros(request):
     return render(request,'trcuentasterceros.html')
+def preautorizacion(request):
+    return render(request,'preautorizacion.html')
