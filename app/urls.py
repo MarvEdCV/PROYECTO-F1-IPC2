@@ -27,4 +27,6 @@ urlpatterns = [
     path('pagoservicios/', views.servicios),
     path('solicitarprestamo/', views.solicitarprestamo),
     path('agregarterceros/', views.agregarterceros),
+    path('suspendercuenta/', views.suspendercuenta),
+    path('activarcuenta/', views.activarcuenta),
 ]

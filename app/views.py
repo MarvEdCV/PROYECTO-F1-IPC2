@@ -20,3 +20,7 @@ def solicitarprestamo(request):
     return render(request,'solicitarprestamo.html')
 def agregarterceros(request):
     return render(request,'agregarterceros.html')
+def suspendercuenta(request):
+    return render(request,'suspendercuenta.html')
+def activarcuenta(request):
+    return render(request,'activarcuenta.html')
