@@ -16,3 +16,5 @@ def pagoplanilla(request):
     return render(request,'pagoplanilla.html')
 def servicios(request):
     return render(request,'sevicios.html')
+def solicitarprestamo(request):
+    return render(request,'solicitarprestamo.html')
