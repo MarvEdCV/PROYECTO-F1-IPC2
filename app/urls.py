@@ -29,4 +29,5 @@ urlpatterns = [
     path('agregarterceros/', views.agregarterceros),
     path('suspendercuenta/', views.suspendercuenta),
     path('activarcuenta/', views.activarcuenta),
+    path('estadodecuenta/', views.estadodecuenta),
 ]

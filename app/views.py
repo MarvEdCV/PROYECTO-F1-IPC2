@@ -24,3 +24,5 @@ def suspendercuenta(request):
     return render(request,'suspendercuenta.html')
 def activarcuenta(request):
     return render(request,'activarcuenta.html')
+def estadodecuenta(request):
+    return render(request,'estadodecuenta.html')
